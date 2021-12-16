@@ -1,0 +1,28 @@
+.login-page__banner {
+    padding-top: $spacing-05*2;
+    padding-bottom: $spacing-07;
+    padding-left: $spacing-05*2;
+    align-items: center;
+    // @include landing-page-background;
+    }
+
+.login-page__r2 {
+    padding-top: $spacing-05*1;
+    padding-bottom: $spacing-07;
+    padding-left: $spacing-05*2;
+}
+
+.login-page__r3 {
+    padding-top: $spacing-05;
+    padding-bottom: $spacing-07;
+    padding-left: $spacing-05;
+}
+
+
+.container{
+    display:flex;
+    }
+    
+.element{
+margin:auto;
+}

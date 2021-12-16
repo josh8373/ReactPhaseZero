@@ -1,0 +1,19 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+@import './components/PzHeader/pz-header.scss';
+@import './components/PzSidenav/pz-sidenav.scss';
+@import './content/LandingPage/landing-page.scss';
+@import './content/RepoPage/repo-page.scss';
+@import './content/PracticePage1/practice-page1.scss';
+@import './content/PracticePage2/practice-page2.scss';
+@import './content/PracticePage3/practice-page3.scss';
+@import './content/LoginPage/login-page.scss';
+
+.landing-page__banner {
+    padding-top: $spacing-05*4;
+    padding-bottom: $spacing-07;
+    padding-left: $spacing-05*2;
+    // @include landing-page-background;
+    }
